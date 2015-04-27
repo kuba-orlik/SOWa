@@ -3,222 +3,10 @@
 	{
 		"selected_items":
 		[
-			[
-				"Dispa",
-				"DispatcherDistributedWEB"
-			],
-			[
-				"Dispat",
-				"DispatcherLocal"
-			],
-			[
-				"Disp",
-				"DispatcherLocal"
-			],
-			[
-				"field",
-				"field_signature"
-			],
-			[
-				"resource_typ",
-				"resource_type_chip"
-			],
-			[
-				"session",
-				"session_id_to_user_id"
-			],
-			[
-				"datast",
-				"datastore_mongo"
-			],
-			[
-				"datas",
-				"datastore_chip_name"
-			],
-			[
-				"proto",
-				"prototype"
-			],
-			[
-				"configu",
-				"configuration"
-			],
-			[
-				"reques",
-				"request_id"
-			],
-			[
-				"chip_types_to_",
-				"chip_types_to_start_set"
-			],
-			[
-				"chip_type",
-				"chip_types_to_start"
-			],
-			[
-				"chips",
-				"chips_defined_by_current_module_set"
-			],
-			[
-				"get",
-				"get_defined_chip_ids"
-			],
-			[
-				"start",
-				"started_chips_longids"
-			],
-			[
-				"module",
-				"module_path"
-			],
-			[
-				"chips_",
-				"chips_to_start"
-			],
-			[
-				"chip_",
-				"chip_instance"
-			],
-			[
-				"cip",
-				"chip_description"
-			],
-			[
-				"chip",
-				"chip_description"
-			],
-			[
-				"re",
-				"required_chip_description"
-			],
-			[
-				"init",
-				"init_instruction"
-			],
-			[
-				"modules_",
-				"modules_by_id"
-			],
-			[
-				"req",
-				"required_chips"
-			],
-			[
-				"di",
-				"display_label"
-			],
-			[
-				"node_",
-				"node_query_string"
-			],
-			[
-				"selec",
-				"selected_mode"
-			],
-			[
-				"getma",
-				"getUrlKeywordMatches"
-			],
-			[
-				"sa",
-				"smallest_score"
-			],
-			[
-				"co",
-				"corrected_query"
-			],
-			[
-				"exi",
-				"exist_query_string"
-			],
-			[
-				"exist",
-				"exist_result"
-			],
-			[
-				"exist_",
-				"exist_query_string"
-			],
-			[
-				"noun_main",
-				"noun_main_genitive"
-			],
-			[
-				"noun_mid",
-				"noun_mid_genitive"
-			],
-			[
-				"noun_pre",
-				"noun_pre_nominative"
-			],
-			[
-				"search_",
-				"search_by_page"
-			],
-			[
-				"css-sli",
-				"css-slide-height"
-			],
-			[
-				"default_",
-				"default_width"
-			],
-			[
-				"defaul",
-				"default_height"
-			],
-			[
-				"secon",
-				"secondary-color-var1"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"cog-",
-				"cog-width"
-			],
-			[
-				"backgroun",
-				"background-image"
-			],
-			[
-				"slide-",
-				"slide-card-margin"
-			],
-			[
-				"modal",
-				"modal-container-fallback"
-			],
-			[
-				"url_",
-				"url_elements"
-			],
-			[
-				"vi",
-				"view_mode"
-			],
-			[
-				"add",
-				"appendChild"
-			],
-			[
-				"expire",
-				"expire_date_gmt"
-			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "SOWa.sublime-project",
-			"settings":
-			{
-				"buffer_size": 73,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -227,184 +15,51 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 106.0,
-		"last_filter": "waka",
+		"height": 29.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"waka",
-				"WakaTime: Open Dashboard"
+				"map",
+				"View: Toggle Minimap"
+			],
+			[
+				"colorcode",
+				"Toggle Colorcode on this view"
+			],
+			[
+				"color ",
+				"Toggle Colorcode on this view"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"toggle menu",
+				"View: Toggle Menu"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"preview",
-				"Markdown Preview: Preview in Browser"
+				"css",
+				"Set Syntax: CSS"
 			],
 			[
-				"php",
-				"Set Syntax: PHP"
-			],
-			[
-				"js",
-				"Set Syntax: JavaScript"
-			],
-			[
-				"sql",
-				"Set Syntax: SQL"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"pre",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"previ",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"previe",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"gfm",
-				"Set Syntax: Markdown GFM"
-			],
-			[
-				"inserd",
-				"InsertDate: Default"
-			],
-			[
-				"inse",
-				"InsertDate: Default"
-			],
-			[
-				"rein",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"remova",
-				"Package Control: Remove Package"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
-				"reomve",
-				"Package Control: Remove Package"
-			],
-			[
-				"inser",
-				"InsertDate: Default"
-			],
-			[
-				"prettify",
-				"HTMLPrettify"
-			],
-			[
-				"insr",
-				"InsertDate: Default"
-			],
-			[
-				"insert",
-				"InsertDate: Default"
-			],
-			[
-				"reind",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"inserdade",
-				"InsertDate: Default"
-			],
-			[
-				"inserda",
-				"InsertDate: Custom"
-			],
-			[
-				"insertD",
-				"InsertDate: Default"
-			],
-			[
-				"jas",
-				"Set Syntax: JavaScript"
-			],
-			[
-				"insertdate",
-				"InsertDate: Default"
-			],
-			[
-				"brows",
-				"SFTP: Browse Remote…"
-			],
-			[
-				"package",
-				"Package Control: Upgrade Package"
-			],
-			[
-				"reins",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"markdown",
-				"Set Syntax: Markdown"
-			],
-			[
-				"markdo",
-				"Set Syntax: Markdown"
-			],
-			[
-				"moni",
-				"SFTP: Monitor File (Upload on External Save)"
-			],
-			[
-				"uplo",
-				"SFTP: Upload File"
-			],
-			[
-				"browse",
-				"SFTP: Browse Remote…"
-			],
-			[
-				"brow",
-				"SFTP: Browse Remote…"
-			],
-			[
-				"line",
-				"Line Ending: Unix"
-			],
-			[
-				"delete",
-				"Delete Local and Remote Files"
-			],
-			[
-				"upl",
-				"SFTP: Upload File"
-			],
-			[
-				"mono",
-				"SFTP: Monitor File (Upload on External Save)"
-			],
-			[
-				"key",
-				"Preferences: Key Bindings - User"
+				"install ",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 510.0
+		"width": 400.0
 	},
 	"console":
 	{
 		"height": 139.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
-			" import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
 	},
 	"distraction_free":
@@ -418,182 +73,82 @@
 	},
 	"expanded_folders":
 	[
-		"/home/kuba/Dropbox/Desktop/SOWa"
+		"/home/kuba/Projekty/SOWa"
 	],
 	"file_history":
 	[
-		"/home/kuba/Dropbox/Desktop/SOWa/Sealious-tutorial.md",
-		"/home/kuba/.config/sublime-text-3/Packages/WakaTime/WakaTime.sublime-settings",
-		"/home/kuba/.config/sublime-text-3/Packages/User/WakaTime.sublime-settings",
-		"/home/kuba/Dropbox/Desktop/Sealious/sealious-base-chips/package.json",
-		"/home/kuba/Dropbox/Docs/Studia/2015 L/GED/projekt - pt1.md",
-		"/home/kuba/Desktop/dietowskazy/src/main/webapp/todo.md",
-		"/home/kuba/Downloads/users2.php",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/features.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/directives/loading.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/directives/rating-bar.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/img/thumb-down.svg",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/partials/recipe.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/directives/recipe-lg.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/directives/features.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/rating.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/recipe-lg.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/recipe-full.css",
-		"/home/kuba/Dropbox/Docs/Studia/2015 L/KEA/wiadra/main.cpp",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/app.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/img/thumb-up.svg",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/recipe-sm.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/ng-table.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/js/directives.js",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/todo.md",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/index.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/reset.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/animations.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/js/filters.js",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/js/controllers-basic.js",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/directives/recipe-sm.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/WEB-INF/jsp/index.jsp",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/lib/angular-locale_pl-pl.js",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/lib/angular-locale_pl.js",
-		"/home/kuba/Desktop/WIA js/wia.js",
-		"/home/kuba/Desktop/WIA js/getimage/WiaWrap.cpp",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/fonts/glyphicons-halflings-regular.svg",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/row.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/META-INF/context.xml",
-		"/home/kuba/Dropbox/Desktop/sealious/package.json",
-		"/home/kuba/Desktop/sealious/sealious-base-chips/module.json",
-		"/home/kuba/Desktop/sealious/sealious-base-chips/package.json",
-		"/home/kuba/Desktop/personal-log.md",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/directives/ingredients.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/img/star-empty.svg",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/css/select.css",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/directives/select-features.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/directives/select-ingredient.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/partials/graphviz-ingredients.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/partials/main.html",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/js/services.js",
-		"/home/kuba/Dropbox/Desktop/dietowskazy/src/main/webapp/partials/edit-recipe-import.html",
-		"/home/kuba/Scripts/dietowskazy.sh",
-		"/usr/local/lib/node_modules/sserver/server.js",
-		"/home/kuba/.hgrc",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/npm-server/node_modules/http-proxy/benchmark/websockets-throughput.js",
-		"/home/kuba/Dropbox/Desktop/sealious/base-chips/node_modules/tingodb/lib/wqueue.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/dispatchers/dispatcher-wrapper.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/dispatchers/biz/dispatcher-biz.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/Set/LICENSE",
-		"/home/kuba/Dropbox/Desktop/sealious/base-chips/use/channel.www_server.js",
-		"/home/kuba/Dropbox/Desktop/sealious/example-app/public/user.html",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/config/config.default.json",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/config/config-manager.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/module/module-manager.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/module/module.js",
-		"/home/kuba/Dropbox/Desktop/sealious/shell.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/chip-types/service.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/core.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/dispatchers/web/dispatcher-web.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/chip-types/resource-manager.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/dispatchers/local/dispatcher-local.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/chip-types/resource-type-field.js",
-		"/home/kuba/Dropbox/Desktop/sealious/base-chips/define/channel.www_server.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/dispatchers/dispatcher.js",
-		"/home/kuba/Dropbox/Desktop/sealious/base-chips/define/channel.rest.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/blanket/test/bootstrap/tests/index_with_worker.html",
-		"/home/kuba/Dropbox/Desktop/sealious/base-chips/define/service.user_manager.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/chip-types/channel.js",
-		"/home/kuba/Dropbox/Desktop/sealious/base-chips/define/channel.http.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/extglob-ending-with-state-char.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/chip-types/chip.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/hapi/node_modules/shot/examples/http.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/npm-server/node_modules/http-proxy/lib/node-http-proxy/http-proxy.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/npm-server/node_modules/http-proxy/test/core/simple/test-http-many-keep-alive-connections.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/npm-server/node_modules/http-proxy/CHANGELOG.md",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/npm-server/node_modules/http-proxy/test/core/simple/test-http-chunked.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/npm-server/node_modules/http-proxy/test/http/http-test.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/.bin/hapi",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/chip-types/resource-type.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/dispatchers/db/dispatcher-db.js",
-		"/home/kuba/Dropbox/Desktop/sealious/base-chips/define/datastore.mongo.js",
-		"/home/kuba/Dropbox/Desktop/sealious/example-app/modules/chat/use/channel.www_server.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/dispatchers/biz/biz-server.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/blanket/test/test-node/fixture/blockinjection_test_file_instrumented.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/merge/bower.json",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/boom/index.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/npm-server/node_modules/fstream-npm/node_modules/fstream-ignore/test/zz-cleanup.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/sealious-base-chips/define/channel.rest.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/mocha/node_modules/jade/testing/user.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/npm-server/node_modules/http-proxy/test/core/run-single",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/dispatchers/db/database-rest-server.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/travis-cov/console_runner.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/hapi/node_modules/vision/examples/cms/views/create.html",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/blanket/test/jasmine/SpecRunner_data_adapter.html",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/hapi/lib/server.js",
-		"/home/kuba/Dropbox/Desktop/sealious/example-app/modules/chat/use/channel.rest.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/chip-types/chip-manager.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/response/error.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/mocha/lib/browser/events.js",
-		"/home/kuba/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/home/kuba/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
-		"/home/kuba/Downloads/test.html",
-		"/home/kuba/Dropbox/Desktop/personal-log.md",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/xmlhttprequest/tests/test-events.js",
-		"/home/kuba/Dropbox/Desktop/sealious/lib/user-manager.js",
-		"/home/kuba/Dropbox/Desktop/sealious/example-app/public/js/authorization.js",
-		"/home/kuba/Desktop/sealious/base-chips/module.json",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/bluebird/js/main/promise_array.js",
-		"/home/kuba/Desktop/alfred/resources",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/bluebird/js/main/errors_api_rejection.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/hapi/lib/auth.js",
-		"/home/kuba/Dropbox/Desktop/sealious/example-app/app.config.json",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/sealious-base-chips/use/channel.www_server.js",
-		"/home/kuba/Dropbox/Desktop/sealious/base-chips/define/resource_type.user.js",
-		"/home/kuba/Dropbox/Desktop/sealious/example-app/modules/chat/define/resource_type.chat_message.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/hapi/lib/defaults.js",
-		"/home/kuba/Dropbox/Desktop/sealious/node_modules/npm-server/node_modules/http-proxy/node_modules/optimist/example/default_singles.js",
-		"/home/kuba/Dropbox/Desktop/sealious/base-chips/define/field_type.association.js"
+		"/home/kuba/Projekty/dev-setup.sh",
+		"/home/kuba/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/kuba/.themes/Numix Daily2/gtk-2.0/gtkrc",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/checkbox-checked-dark.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/checkbox-checked.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/checkbox-mixed-dark.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/checkbox-mixed.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/grid-selection-checked-dark.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/grid-selection-checked.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/menuitem-checkbox-checked.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/menuitem-checkbox-mixed.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/menuitem-radio-checked.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/radio-mixed-dark.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/radio-mixed.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/radio-selected-dark.svg",
+		"/home/kuba/.themes/Numix Daily2/gtk-3.0/assets/radio-selected.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/close_focused_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/close_focused_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/close_unfocused_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/close_unfocused_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/maximize_focused_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/maximize_focused_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/maximize_unfocused_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/maximize_unfocused_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/minimize_focused_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/minimize_focused_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/minimize_unfocused_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/minimize_unfocused_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/progress_bar_fill.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/unmaximize_focused_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/unmaximize_focused_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/unmaximize_unfocused_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/unmaximize_unfocused_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/icons/close_dash_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/icons/close_dash_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/icons/minimize_dash_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/icons/minimize_dash_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/icons/sheet_style_close_focused_prelight.svg",
+		"/home/kuba/.themes/Numix Daily2/unity/icons/sheet_style_close_focused_pressed.svg",
+		"/home/kuba/.themes/Numix Daily2/xfce-notify-4.0/gtkrc",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/close-prelight.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/close-pressed.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/hide-prelight.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/hide-pressed.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/maximize-prelight.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/maximize-pressed.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/maximize-toggled-prelight.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/maximize-toggled-pressed.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/shade-prelight.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/shade-pressed.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/shade-toggled-prelight.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/shade-toggled-pressed.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/stick-prelight.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/stick-pressed.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/stick-toggled-prelight.xpm",
+		"/home/kuba/.themes/Numix Daily2/xfwm4/stick-toggled-pressed.xpm",
+		"/home/kuba/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/home/kuba/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/kuba/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/media/kuba/Kuba/Backup/2015 04 23 Ubuntu/home/kuba/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/kuba/temp/untitled.css"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
-			"",
-			"/home/kuba/Dropbox/Desktop/sealious/",
-			"/home/kuba/Dropbox/Desktop/sealious/*.js",
-			"/home/kuba/Dropbox/Desktop/sealious/",
-			"/home/kuba/Dropbox/Desktop/sealious/lib/",
-			"/home/kuba/Dropbox/Desktop/sealious/lib/chip-types",
-			"",
-			"*.php",
-			"*.scss",
-			"*.php",
-			"*.scss",
-			"*.php",
-			"*.scss",
-			"*.php",
-			"*.scss",
-			"*.php",
-			"*.scss",
-			"",
-			"*.scss",
-			"*.php",
-			"",
-			"*.php",
-			"*.scss",
-			"*.php",
-			"*.scss",
-			"*.php",
-			"*.scss",
-			"*.php",
-			"*.scss",
-			"",
-			"*.scss",
-			"*.tpl.php",
-			"",
-			"*.scss"
+			""
 		]
 	},
 	"find_state":
@@ -601,146 +156,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"form",
-			"save",
-			"26",
-			"\\t+",
-			"	 	",
-			"  	",
-			"bar-container",
-			"features-containe",
-			"zaloguj się",
-			"h5",
-			"like",
-			"hand-fill",
-			"id=\"fill\"",
-			"g",
-			"h4",
-			"źródło",
-			"ratingBar",
-			"dw-",
-			"directives",
-			"rating",
-			"rank",
-			"ranking",
-			"Recipe",
-			"recipe",
-			"fadein",
-			"0.3",
-			"h4",
-			",",
-			"h2,h3",
-			",",
-			"paper",
-			"shadow",
-			",",
-			"h3",
-			"h2,h3",
-			",",
-			"3deg",
-			"<img",
-			"im",
-			"photo",
-			"edytuj",
-			"url",
-			"(\"",
-			"\"",
-			"brak opisu",
-			"quantity",
-			"15deg",
-			"filter",
-			"color:",
-			".recipe-snippet",
-			"snippet",
-			"\n.recipe-snippet",
-			".recipe-snippet",
-			"grid",
-			"class=\"well\"",
-			"15rem",
-			"recipe-name",
-			"glyphicon",
-			"img-responsive img-rounded center-block",
-			"20rem",
-			"post",
-			"domain",
-			"dietowskazy + ",
-			"@alias",
-			"alias",
-			"get_user_id",
-			"get_signature",
-			"tried to access chip type",
-			"signature",
-			"dispatcherdistributedbiz",
-			"init",
-			"find_resource",
-			"list_by_type",
-			"/mine",
-			"access_mode",
-			"get_resource_access_mode",
-			"edit_resource_access_mode",
-			"chat_message",
-			"body.chat_message",
-			"find",
-			"new_query",
-			"new_",
-			"new_query",
-			"login",
-			"errors",
-			".resources_",
-			"\\.resources_",
-			".resources_",
-			"arguments",
-			"function\\((.*), dispatcher\\)",
-			"function\\((.*)dispatcher\\)",
-			"me.",
-			"DispatcherWrapper",
-			"this",
-			"new",
-			"new_query",
-			"create_user",
-			"creating it",
-			"console",
-			"d3",
-			"1",
-			"<label",
-			"checkbox",
-			".users",
-			"dispatcher.",
-			"dispatcher",
-			"this",
-			"get_all_users",
-			"../../user",
-			"service.js",
-			"processed_query",
-			"/me",
-			"get_all",
-			"resources_",
-			"id from session",
-			"user_id",
-			"password_ma",
-			"login",
-			"me",
-			"wrong username or password",
-			"resources_create",
-			"create_user",
-			"users_create_user",
-			"###########e",
-			"new Chip",
-			"statusCode",
-			"error",
-			"409.1"
+			"require(\"Set",
+			"require(\"ip\"",
+			"require(\"open\"",
+			"\"open\"",
+			"does not exist",
+			"#d64937",
+			"rgb ",
+			"272822"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
-			"\\n$0",
-			".resources.",
-			"function\\(dispatcher, $1\\)",
-			"$1",
-			" "
+			"#669FB1"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -751,54 +182,18 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "SOWa.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 73,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "json",
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 24.0
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -827,15 +222,11 @@
 	{
 		"height": 0.0
 	},
-	"output.sftp":
-	{
-		"height": 112.0
-	},
 	"pinned_build_system": "",
 	"project": "SOWa.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -845,648 +236,28 @@
 		"selected_items":
 		[
 			[
-				"full",
-				"css/recipe-full.css"
-			],
-			[
-				"lg",
-				"directives/recipe-lg.html"
-			],
-			[
-				"app.css",
-				"css/app.css"
-			],
-			[
-				"-up",
-				"img/thumb-up.svg"
-			],
-			[
-				"down",
-				"img/thumb-down.svg"
-			],
-			[
-				"todo",
-				"todo.md"
-			],
-			[
-				"featu",
-				"directives/features.html"
-			],
-			[
-				"index",
-				"index.html"
-			],
-			[
-				"fea",
-				"css/features.css"
-			],
-			[
-				"recipe.css",
-				"css/recipe-full.css"
-			],
-			[
-				"app",
-				"css/app.css"
-			],
-			[
-				"reset",
-				"css/reset.css"
-			],
-			[
 				"core",
-				"fonts/glyphicons-halflings-regular.svg"
-			],
-			[
-				"html",
-				"index.html"
-			],
-			[
-				"resmcs",
-				"css/recipe-sm.css"
-			],
-			[
-				"index.",
-				"WEB-INF/jsp/index.jsp"
-			],
-			[
-				"resou",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"rest",
-				"base-chips/define/channel.rest.js"
-			],
-			[
-				"-web",
-				"lib/dispatchers/web/dispatcher-web.js"
-			],
-			[
-				"reso",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"disp",
-				"lib/dispatchers/dispatcher.js"
-			],
-			[
-				"local",
-				"lib/dispatchers/local/dispatcher-local.js"
-			],
-			[
-				"usermana",
-				"base-chips/define/service.user_manager.js"
-			],
-			[
-				"modulema",
-				"lib/module/module-manager.js"
-			],
-			[
-				"shell",
-				"shell.js"
-			],
-			[
-				"www",
-				"base-chips/use/channel.www_server.js"
-			],
-			[
-				"usewww",
-				"base-chips/use/channel.www_server.js"
-			],
-			[
-				"channelwwwser",
-				"base-chips/define/channel.www_server.js"
-			],
-			[
-				"resource-mana",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"local.",
-				"lib/dispatchers/local/dispatcher-local.js"
-			],
-			[
-				"rest.",
-				"base-chips/define/channel.rest.js"
-			],
-			[
-				"disweb",
-				"lib/dispatchers/web/dispatcher-web.js"
-			],
-			[
-				"usewwwser",
-				"base-chips/use/channel.www_server.js"
-			],
-			[
-				"wwwser",
-				"base-chips/define/channel.www_server.js"
-			],
-			[
-				"disbiz",
-				"lib/dispatchers/biz/dispatcher-biz.js"
-			],
-			[
-				"biz",
-				"lib/dispatchers/biz/biz-server.js"
-			],
-			[
-				"channrest",
-				"base-chips/define/channel.rest.js"
-			],
-			[
-				"resour",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"userman",
-				"base-chips/define/service.user_manager.js"
-			],
-			[
-				"dispatcher",
-				"lib/dispatchers/dispatcher.js"
-			],
-			[
-				"reman",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"dataabseres",
-				"lib/dispatchers/db/database-rest-server.js"
-			],
-			[
-				"user_ma",
-				"base-chips/define/service.user_manager.js"
-			],
-			[
-				"dispatcherlo",
-				"lib/dispatchers/local/dispatcher-local.js"
-			],
-			[
-				"error.js",
-				"lib/response/error.js"
-			],
-			[
-				"chipmana",
-				"lib/chip-types/chip-manager.js"
-			],
-			[
-				"resourcemana",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"usechannelrest",
-				"example-app/modules/chat/use/channel.rest.js"
-			],
-			[
-				"displo",
-				"lib/dispatchers/local/dispatcher-local.js"
-			],
-			[
-				"evet",
-				"node_modules/mocha/lib/browser/events.js"
-			],
-			[
-				"chipman",
-				"lib/chip-types/chip-manager.js"
-			],
-			[
-				"authi",
-				"example-app/public/js/authorization.js"
-			],
-			[
-				"pack",
-				"package.json"
-			],
-			[
-				"authoriz",
-				"example-app/public/js/authorization.js"
-			],
-			[
-				"resource-manager",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"user-mana",
-				"lib/user-manager.js"
-			],
-			[
-				"definewwwser",
-				"base-chips/define/channel.www_server.js"
-			],
-			[
-				"resout",
-				"lib/chip-types/resource-type.js"
-			],
-			[
-				"definewww",
-				"base-chips/define/channel.www_server.js"
-			],
-			[
-				"resouma",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"channel.rest",
-				"base-chips/define/channel.rest.js"
-			],
-			[
-				"usewwwserer",
-				"base-chips/use/channel.www_server.js"
-			],
-			[
-				"module-info",
-				"lib/module/module-info.js"
-			],
-			[
-				"shell.js",
-				"shell.js"
-			],
-			[
-				"module.js",
-				"lib/module/module.js"
-			],
-			[
-				"channe.www",
-				"base-chips/define/channel.www_server.js"
-			],
-			[
-				"use.www_ser",
-				"base-chips/use/channel.www_server.js"
-			],
-			[
-				"datastore",
-				"base-chips/define/datastore.mongo.js"
-			],
-			[
-				"www_ser",
-				"base-chips/define/channel.www_server.js"
-			],
-			[
-				"chip",
-				"lib/chip-types/chip.js"
-			],
-			[
-				"core.js",
-				"lib/core.js"
-			],
-			[
-				"conman",
-				"lib/config/config-manager.js"
-			],
-			[
-				"resman",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"metadatama",
-				"lib/metadata-manager.js"
-			],
-			[
-				"query.js",
-				"node_modules/mongodb/lib/mongodb/collection/query.js"
-			],
-			[
-				"datamon",
-				"base-chips/define/datastore.mongo.js"
-			],
-			[
-				"modulemana",
-				"lib/module/module-manager.js"
-			],
-			[
-				"moduleman",
-				"lib/module/module-manager.js"
-			],
-			[
-				"mongo.js",
-				"base-chips/define/datastore.mongo.js"
-			],
-			[
-				"configam",
-				"lib/config/config-manager.js"
-			],
-			[
-				"config-mana",
-				"lib/config/config-manager.js"
-			],
-			[
-				"index.js",
-				"node_modules/boom/index.js"
-			],
-			[
-				"dispacherbiz",
-				"lib/dispatchers/biz/dispatcher-biz.js"
-			],
-			[
-				"dispatcher-we",
-				"lib/dispatchers/web/dispatcher-web.js"
-			],
-			[
-				"dispatcher-web",
-				"lib/dispatchers/web/dispatcher-web.js"
-			],
-			[
-				"databaseres",
-				"lib/dispatchers/db/database-rest-server.js"
-			],
-			[
-				"fieltext",
-				"base-chips/define/field_type.text.js"
-			],
-			[
-				"chat",
-				"example-app/modules/chat/define/resource_type.chat_message.js"
-			],
-			[
-				"chip-manage",
-				"lib/chip-types/chip-manager.js"
-			],
-			[
-				"resource-ma",
-				"lib/chip-types/resource-manager.js"
-			],
-			[
-				"module-man",
-				"lib/module/module-manager.js"
-			],
-			[
-				"module",
-				"lib/module/module.js"
-			],
-			[
-				"modman",
-				"lib/module/module-manager.js"
-			],
-			[
-				"chip-man",
-				"lib/chip-types/chip-manager.js"
-			],
-			[
-				"chatconvers",
-				"example-app/modules/chat/define/resource_type.chat_conversation.js"
-			],
-			[
-				"channel.www_",
-				"base-chips/define/channel.www_server.js"
-			],
-			[
-				"modle.json",
-				"base-chips/module.json"
-			],
-			[
-				"module.json",
-				"example-app/modules/chat/module.json"
-			],
-			[
-				"resourcetypefield",
-				"lib/chip-types/resource-type-field.js"
-			],
-			[
-				"resourcetypeuser",
-				"base-chips/define/resource_type.user.js"
-			],
-			[
-				"fieldtype.js",
-				"lib/chip-types/field-type.js"
-			],
-			[
-				"resource-type",
-				"lib/chip-types/resource-type.js"
-			],
-			[
-				"servi",
-				"lib/chip-types/service.js"
-			],
-			[
-				"channel.js",
-				"lib/chip-types/channel.js"
-			],
-			[
-				"moma",
-				"lib/module/module-manager.js"
-			],
-			[
-				"config.dea",
-				"lib/config/config.default.json"
-			],
-			[
-				"modljson",
-				"example-app/modules/chat/module.json"
-			],
-			[
-				"html.",
-				"nowa.aspazja.pl/templates/html.tpl.php"
-			],
-			[
-				"colors",
-				"nowa.aspazja.pl/css/_colors.scss"
-			],
-			[
-				"colors.scss",
-				"nowa.aspazja.pl/css/_colors.scss"
-			],
-			[
-				"style.css",
-				"nowa.aspazja.pl/css/style.css"
-			],
-			[
-				"main.scss",
-				"nowa.aspazja.pl/css/_main.scss"
-			],
-			[
-				"search.scss",
-				"nowa.aspazja.pl/css/_search.scss"
-			],
-			[
-				"search_temp",
-				"nowa.aspazja.pl-module/search_template.php"
-			],
-			[
-				"style.scss",
-				"nowa.aspazja.pl/css/style.scss"
-			],
-			[
-				"searscss",
-				"nowa.aspazja.pl/css/_search.scss"
-			],
-			[
-				"wyszukiwa",
-				"nowa.aspazja.pl/templates/views-view-fields--wyszukiwanie.tpl.php"
-			],
-			[
-				"searchtemp",
-				"nowa.aspazja.pl-module/search_template.php"
-			],
-			[
-				"pa",
-				"nowa.aspazja.pl/templates/page.tpl.php"
-			],
-			[
-				"page.tpl",
-				"nowa.aspazja.pl/templates/page.tpl.php"
-			],
-			[
-				"scripts",
-				"nowa.aspazja.pl/js/script.js"
-			],
-			[
-				".module",
-				"nowa.aspazja.pl-module/aspazja.module"
-			],
-			[
-				"node.tpl",
-				"nowa.aspazja.pl/templates/node.tpl.php"
-			],
-			[
-				"wpis-w",
-				"nowa.aspazja.pl/templates/node--wpis-w-cenniku.tpl.php"
-			],
-			[
-				"wpiswce",
-				"nowa.aspazja.pl/templates/node--wpis-w-cenniku.tpl.php"
-			],
-			[
-				"wpis-",
-				"nowa.aspazja.pl/templates/node--wpis-w-cenniku.tpl.php"
-			],
-			[
-				"node",
-				"nowa.aspazja.pl/templates/node.tpl.php"
-			],
-			[
-				"page",
-				"nowa.aspazja.pl/templates/page.tpl.php"
+				"Sealious/lib/core.js"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
-		"last_filter": "seaall",
+		"height": 435.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"seaall",
-				"~/Dropbox/Desktop/Sealious/Sealious-all-repos.sublime-workspace"
-			],
-			[
-				"sealiall",
-				"~/Dropbox/Desktop/Sealious/Sealious-all-repos.sublime-workspace"
-			],
-			[
-				"all",
-				"~/Dropbox/Desktop/Sealious/Sealious-all-repos.sublime-workspace"
-			],
-			[
-				"sealous",
-				"~/Desktop/sealious/sealious.sublime-workspace"
-			],
-			[
-				"kea",
-				"~/Dropbox/Docs/Studia/2015 L/KEA/KEA.sublime-workspace"
-			],
-			[
-				"sealious",
-				"~/Dropbox/Desktop/Sealious/Sealious-all-repos.sublime-workspace"
-			],
-			[
-				"alfred",
-				"~/Dropbox/Desktop/alfred/alfred.sublime-project"
-			],
-			[
-				"dietow",
-				"~/Desktop/dietowskazy/dietowskazy.sublime-project"
-			],
-			[
-				"jaku",
-				"~/FTP Cache/jakub-orlik.pl/jakub-orlik.pl.sublime-project"
-			],
-			[
-				"ald",
-				"~/Dropbox/Desktop/alfred/alfred.sublime-project"
-			],
-			[
-				"alf",
-				"~/Dropbox/Desktop/alfred/alfred.sublime-project"
-			],
-			[
-				"sealiou",
-				"~/Dropbox/Desktop/sealious/sealious.sublime-project"
-			],
-			[
-				"seali",
-				"~/Dropbox/Desktop/sealious/sealious.sublime-project"
-			],
-			[
-				"alfre",
-				"~/Dropbox/Desktop/alfred/alfred.sublime-project"
-			],
-			[
-				"aut",
-				"~/Dropbox/Desktop/Studia/DAUT/daut-2014-s384018/DAUT.sublime-project"
-			],
-			[
-				"ALFRED",
-				"~/Dropbox/Desktop/alfred/alfred.sublime-project"
-			],
-			[
-				"alfr",
-				"~/Dropbox/Desktop/alfred/alfred.sublime-project"
+				"",
+				"~/Projekty/alfred/alfred.sublime-project"
 			],
 			[
 				"al",
-				"~/Dropbox/Desktop/alfred/alfred.sublime-project"
-			],
-			[
-				"ruper",
-				"~/Dropbox/Desktop/rupert/rupert.sublime-workspace"
-			],
-			[
-				"sea",
-				"~/Dropbox/Desktop/sealious/sealious.sublime-project"
-			],
-			[
-				"daut",
-				"~/Dropbox/Desktop/Studia/DAUT/daut-2014-s384018/DAUT.sublime-project"
-			],
-			[
-				"",
-				"~/FTP Cache/Aspazja ikleks/aspazja.sublime-project"
-			],
-			[
-				"alk",
-				"~/Dropbox/Desktop/Studia/ALK/ALK.sublime-project"
-			],
-			[
-				"prometh",
-				"~/Dropbox/Desktop/prometheus_repo3/prometheus.sublime-project"
-			],
-			[
-				"pro",
-				"~/Dropbox/Desktop/prometheus_repo3/prometheus.sublime-project"
-			],
-			[
-				"p",
-				"~/Dropbox/Desktop/prometheus_repo/prometheus.sublime-workspace"
-			],
-			[
-				"prom",
-				"~/Dropbox/Desktop/prometheus_repo3/prometheus.sublime-project"
-			],
-			[
-				"prome",
-				"~/Dropbox/Desktop/prometheus_repo3/prometheus.sublime-project"
-			],
-			[
-				"aspa",
-				"~/FTP Cache/Aspazja ikleks/aspazja.sublime-project"
-			],
-			[
-				"proe",
-				"~/Dropbox/Desktop/prometheus_repo/prometheus.sublime-project"
+				"~/Projekty/alfred/alfred.sublime-project"
 			]
 		],
-		"width": 380.0
+		"width": 331.0
 	},
 	"select_symbol":
 	{
@@ -1505,7 +276,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 333.0,
+	"side_bar_width": 255.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
