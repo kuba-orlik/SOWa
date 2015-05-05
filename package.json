@@ -9,6 +9,9 @@
   "author": "Kuba Orlik <groovy354@gmail.com> (https://www.facebook.com/groovy354)",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^2.9.24",
+    "identification-numbers": "0.0.6",
+    "jquery": "^2.1.3",
     "sealious": "latest"
   },
   "devDependencies": {

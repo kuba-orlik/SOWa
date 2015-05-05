@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title> Rejestracja - SOWa </title>
+	</head>
+	<body>
+		<h1>
+			Rejestracja
+		</h1>
+		<form method="POST" action="/api/v1/users">
+			<input type="hidden" name="redirect_success" value="/index.html"/>
+			<input type="text" name="username" placeholder="username"/>
+			<input type="password" name="password" placeholder="password">
+			<input type="submit"/>
+		</form>
+		<a href="/login.html">login</a>
+	</body>
+</html>

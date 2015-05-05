@@ -1,0 +1,42 @@
+*{
+	font-family: Cantarell, "Open Sans", sans-serif;
+}
+
+html{
+	background-color: hsl(54, 10%, 84%);
+	padding:1rem;
+	font-size:1.1rem;
+}
+
+body{
+	margin-top:0;
+	max-width:60rem;
+	background-color:white;
+	padding:1rem;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	z-index:2;
+}
+
+body:before{
+	display:block;
+	content:" ";
+	width:100%;
+	height:100%;
+	background-image:url("/img/sowa.svg");
+	opacity:0.3;
+	position:absolute;
+	top:0;
+	left:0;
+	background-repeat: no-repeat;
+	background-size: auto 8rem;
+	background-position: calc(100% - 1rem) calc(100% - 1rem);
+	z-index:1;
+	pointer-events:none;
+}
+
+body > *{
+	z-index: 2;
+	position:relative;
+}
