@@ -24,7 +24,6 @@ body:before{
 	content:" ";
 	width:100%;
 	height:100%;
-	background-image:url("/img/sowa.svg");
 	opacity:0.3;
 	position:absolute;
 	top:0;

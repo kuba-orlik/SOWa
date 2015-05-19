@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"field_",
+				"field_description"
+			],
+			[
 				"get",
 				"getInitialState	Life Cycle Method"
 			]
@@ -15,15 +19,23 @@
 			"file": "public/js/components/form.jsx",
 			"settings":
 			{
-				"buffer_size": 1357,
+				"buffer_size": 2122,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/js/components/form_label.jsx",
+			"file": "public/js/components/form_row.jsx",
 			"settings":
 			{
-				"buffer_size": 239,
+				"buffer_size": 862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/components/form_footer.jsx",
+			"settings":
+			{
+				"buffer_size": 734,
 				"line_ending": "Unix"
 			}
 		},
@@ -31,7 +43,7 @@
 			"file": "public/css/sealious-form.css",
 			"settings":
 			{
-				"buffer_size": 578,
+				"buffer_size": 1070,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +51,15 @@
 			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 1049,
+				"buffer_size": 1051,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/schema/field_type.pesel.js",
+			"settings":
+			{
+				"buffer_size": 482,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,18 +67,16 @@
 			"file": "node_modules/sealious/lib/dispatchers/dispatcher.js",
 			"settings":
 			{
-				"buffer_size": 2166,
+				"buffer_size": 2209,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Searching 7742 files for \"services.\"\n\n/home/kuba/Projekty/SOWa/node_modules/sealious/lib/dispatchers/web/dispatcher-web.js:\n   11  DispatcherDistributedWEB.process_service_method = function(service, service_name, method_name){\n   12  	return function(){\n   13: 		return this.call_over_socket(\"services.\" + service_name + \".\" + method_name, arguments);\n   14  	}.bind(this);\n   15  }\n\n/home/kuba/Projekty/SOWa/node_modules/sealious/node_modules/sealious-base-chips/define/service.metadata_manager.js:\n   29  	metadata_manager.set_value = function(dispatcher, key, value){\n   30  		return new Promise(function(resolve, reject){\n   31: 			dispatcher.services.metadata_manager.has_key(key, dispatcher).then(function(has){\n   32  				function actual_set(){\n   33  					dispatcher.datastore.update(\"meta\", { key: key }, {key:key, value: value}).then(function(response){\n   ..\n   52  	metadata_manager.increment_variable = function(dispatcher, key){\n   53  		return new Promise(function(resolve, reject){\n   54: 			dispatcher.services.metadata_manager.get_value(key, dispatcher).then(function(data){\n   55  				if(isNaN(data)){\n   56  					var new_id=0;\n   ..\n   58  					var new_id = data+1;						\n   59  				}\n   60: 				dispatcher.services.metadata_manager.set_value(key, new_id, dispatcher).then(function(dataL){\n   61  					resolve(new_id);\n   62  				});\n\n/home/kuba/Projekty/SOWa/node_modules/sealious/node_modules/sealious-base-chips/define/service.user_manager.js:\n    6  	user_manager.create_user = function(dispatcher, username, password){\n    7  		var user_data;\n    8: 		return dispatcher.services.user_manager.user_exists(username, dispatcher)\n    9  		.then(function(user_exists){	\n   10  			if (!user_exists){\n\n/home/kuba/Projekty/SOWa/node_modules/sealious/node_modules/sealious-base-chips/use/channel.www_server.js:\n    9  		path: url,\n   10  		handler: function(request, reply){\n   11: 			dispatcher.services.user_manager.get_all_users()\n   12  			.then(function(users){ // wywołanie metody z dispatchera webowego\n   13  				reply(users);\n   ..\n   21  		path: url + \"/{user_id}\",\n   22  		handler: function(request, reply){\n   23: 			dispatcher.services.user_manager.get_user_data(request.params.user_id)\n   24  				.then(function(user_data){ // wywołanie metody z dispatchera webowego\n   25  					reply(user_data);\n   ..\n   38  		path: url,\n   39  		handler: function(request, reply){\n   40: 			dispatcher.services.user_manager.create_user(request.payload.username, request.payload.password)\n   41  			.then(function(response){\n   42  				reply().redirect(\"/login.html#registered\");\n   ..\n   53  		path: url+\"/{user_id}\",\n   54  		handler: function(request, reply){\n   55: 			dispatcher.services.user_manager.update_user_data(request.params.user_id, request.payload)\n   56  			.then(function(response){\n   57  				reply();\n   ..\n   64  		path: url+\"/{user_id}\",\n   65  		handler: function(request, reply){\n   66: 			dispatcher.services.user_manager.delete_user(request.params.user_id)\n   67  			.then(function(user_data){\n   68  				reply(user_data);\n   ..\n   84  				reply(error);\n   85  			} else {\n   86: 				dispatcher.services.user_manager.get_user_data(user_id)\n   87  				.then(function(user_data){\n   88  					if(user_data){\n   ..\n  110  				reply(error);\n  111  			} else {\n  112: 				dispatcher.services.user_manager.update_user_data(user_id, request.payload)\n  113  				.then(function(){\n  114  					reply(\"ok!\");\n  ...\n  122  		path: \"/login\",\n  123  		handler: function(request, reply) {\n  124: 			dispatcher.services.user_manager.password_match(request.payload.username, request.payload.password)\n  125  			.then(function(user_id) {\n  126  				if (user_id!==false) {\n\n/home/kuba/Projekty/SOWa/node_modules/sealious/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/README.md:\n    7  Passes the quite extensive Autobahn test suite. See http://einaros.github.com/ws for the full reports.\n    8  \n    9: Comes with a command line utility, `wscat`, which can either act as a server (--listen), or client (--connect); Use it to debug simple websocket services.\n   10  \n   11  ## Protocol support ##\n\n/home/kuba/Projekty/SOWa/node_modules/sealious-base-chips/define/service.metadata_manager.js:\n   29  	metadata_manager.set_value = function(dispatcher, key, value){\n   30  		return new Promise(function(resolve, reject){\n   31: 			dispatcher.services.metadata_manager.has_key(key, dispatcher).then(function(has){\n   32  				function actual_set(){\n   33  					dispatcher.datastore.update(\"meta\", { key: key }, {key:key, value: value}).then(function(response){\n   ..\n   52  	metadata_manager.increment_variable = function(dispatcher, key){\n   53  		return new Promise(function(resolve, reject){\n   54: 			dispatcher.services.metadata_manager.get_value(key, dispatcher).then(function(data){\n   55  				if(isNaN(data)){\n   56  					var new_id=0;\n   ..\n   58  					var new_id = data+1;						\n   59  				}\n   60: 				dispatcher.services.metadata_manager.set_value(key, new_id, dispatcher).then(function(dataL){\n   61  					resolve(new_id);\n   62  				});\n\n/home/kuba/Projekty/SOWa/node_modules/sealious-base-chips/define/service.user_manager.js:\n    6  	user_manager.create_user = function(dispatcher, username, password){\n    7  		var user_data;\n    8: 		return dispatcher.services.user_manager.user_exists(username, dispatcher)\n    9  		.then(function(user_exists){	\n   10  			if (!user_exists){\n\n/home/kuba/Projekty/SOWa/node_modules/sealious-base-chips/use/channel.www_server.js:\n   10  		handler: function(request, reply){\n   11  			if(1){\n   12: 				console.log(dispatcher.services.user_manager);\n   13: 				dispatcher.services.user_manager.get_all_users()\n   14  				.then(function(users){ // wywołanie metody z dispatchera webowego\n   15  					reply(users);\n   ..\n   26  		path: url + \"/{user_id}\",\n   27  		handler: function(request, reply){\n   28: 				dispatcher.services.user_manager.get_user_data(request.params.user_id)\n   29  					.then(function(user_data){ // wywołanie metody z dispatchera webowego\n   30  						reply(user_data);\n   ..\n   43  		path: url,\n   44  		handler: function(request, reply){\n   45: 			dispatcher.services.user_manager.create_user(request.payload.username, request.payload.password)\n   46  				.then(function(response){\n   47  					reply().redirect(\"/login.html#registered\");\n   ..\n   60  		path: url+\"/{user_id}\",\n   61  		handler: function(request, reply){\n   62: 			dispatcher.services.user_manager.update_user_data(request.params.user_id, request.payload)\n   63  			.then(function(response){\n   64  				reply();\n   ..\n   71  		path: url+\"/{user_id}\",\n   72  		handler: function(request, reply){\n   73: 			dispatcher.services.user_manager.delete_user(request.params.user_id)\n   74  			.then(function(user_data){\n   75  				reply(user_data);\n   ..\n   92  			} else {\n   93  				console.log(\"USER ID:\", user_id);\n   94: 				dispatcher.services.user_manager.get_user_data(user_id)\n   95  				.then(function(user_data){\n   96  					if(user_data){\n   ..\n  118  				reply(error);\n  119  			} else {\n  120: 				dispatcher.services.user_manager.update_user_data(user_id, request.payload)\n  121  				.then(function(){\n  122  					reply(\"ok!\");\n  ...\n  130          path: \"/login\",\n  131          handler: function(request, reply) {\n  132:             dispatcher.services.user_manager.password_match(request.payload.username, request.payload.password)\n  133              .then(function(user_id) {\n  134                  if (user_id!==false) {\n\n27 matches across 8 files\n",
+			"file": "public/css/basics.css",
 			"settings":
 			{
-				"buffer_size": 7544,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
+				"buffer_size": 613,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -70,9 +88,25 @@
 	"command_palette":
 	{
 		"height": 124.0,
-		"last_filter": "reind",
+		"last_filter": "preview",
 		"selected_items":
 		[
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"insert date",
+				"InsertDate: Default"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"gfm",
+				"Set Syntax: Markdown GFM"
+			],
 			[
 				"reind",
 				"Indentation: Reindent Lines"
@@ -108,13 +142,9 @@
 			[
 				"css",
 				"Set Syntax: CSS"
-			],
-			[
-				"install ",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 416.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -136,22 +166,31 @@
 	"expanded_folders":
 	[
 		"/home/kuba/Projekty/SOWa",
-		"/home/kuba/Projekty/SOWa/public",
+		"/home/kuba/Projekty/SOWa/lib",
+		"/home/kuba/Projekty/SOWa/lib/schema",
 		"/home/kuba/Projekty/SOWa/public/css",
 		"/home/kuba/Projekty/SOWa/public/js",
 		"/home/kuba/Projekty/SOWa/public/js/components"
 	],
 	"file_history":
 	[
+		"/home/kuba/Projekty/SOWa/public/js/frontend.js",
+		"/home/kuba/Projekty/SOWa/public/js/bundle.js",
+		"/home/kuba/Projekty/SOWa/node_modules/identification-numbers/lib/identification-numbers/pesel.js",
+		"/home/kuba/Downloads/nohup.out",
+		"/home/kuba/Projekty/SOWa/public/css/sealious-form.css",
+		"/home/kuba/Projekty/SOWa/main.js",
+		"/home/kuba/Projekty/WG/Word Generator 2 - wymagania.md",
+		"/home/kuba/temp/pyDDP/temp_server.py",
+		"/home/kuba/temp/pyDDP/temp_client.py",
+		"/home/kuba/Projekty/personal-log.md",
 		"/home/kuba/Projekty/SOWa/public/js/components/form_input.jsx",
 		"/home/kuba/Projekty/SOWa/node_modules/sealious/lib/chip-types/field-type.js",
-		"/home/kuba/Projekty/SOWa/main.js",
 		"/home/kuba/Projekty/SOWa/lib/schema/field_type.pesel.js",
 		"/home/kuba/Projekty/SOWa/public/css/all.css",
 		"/home/kuba/Projekty/SOWa/public/css/basics.css",
 		"/home/kuba/Projekty/SOWa/public/css/reset.css",
 		"/home/kuba/Projekty/SOWa/public/js/components/form_row.jsx",
-		"/home/kuba/Projekty/SOWa/public/css/sealious-form.css",
 		"/home/kuba/Projekty/SOWa/public/js/components/form.jsx",
 		"/home/kuba/Projekty/SOWa/public/index.html",
 		"/home/kuba/Projekty/SOWa/.gitignore",
@@ -163,13 +202,11 @@
 		"/home/kuba/Projekty/SOWa/lib/schema/schema.js",
 		"/home/kuba/Projekty/SOWa/public/js/components/all.jsx",
 		"/home/kuba/Projekty/SOWa/public/js/components/form_label.jsx",
-		"/home/kuba/Projekty/SOWa/public/js/frontend.js",
 		"/home/kuba/Projekty/SOWa/public/login.html",
 		"/home/kuba/Projekty/SOWa/public/register.html",
 		"/home/kuba/Projekty/Sealious-dev/sealious-base-chips/package.json",
 		"/home/kuba/Projekty/SOWa/public/js/components/all.js",
 		"/home/kuba/Projekty/SOWa/builder.sh",
-		"/home/kuba/Projekty/SOWa/public/js/bundle.js",
 		"/home/kuba/Projekty/SOWa/package.json",
 		"/home/kuba/Projekty/SOWa/public/js/package.json",
 		"/home/kuba/Projekty/SOWa/public/main.js",
@@ -238,7 +275,7 @@
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -253,6 +290,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"arguments\"",
+			"zgłoszenie",
+			"POST /login",
+			"FormRow",
+			"svg",
 			"services.",
 			"is_active",
 			"app",
@@ -289,7 +331,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -298,52 +340,193 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1357,
+						"buffer_size": 2122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1080,
-								1080
+								1590,
+								1590
 							]
 						],
 						"settings":
 						{
 							"encoding_helper_encoding": "UTF-8",
 							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 451.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/js/components/form_row.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								617,
+								617
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/js/components/form_footer.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/css/sealious-form.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "public/js/components/form_label.jsx",
-					"semi_transient": true,
+					"buffer": 4,
+					"file": "main.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 239,
+						"buffer_size": 1051,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								706,
+								706
 							]
 						],
 						"settings":
 						{
 							"encoding_helper_encoding": "UTF-8",
 							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/schema/field_type.pesel.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -354,12 +537,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "public/css/sealious-form.css",
+					"buffer": 6,
+					"file": "node_modules/sealious/lib/dispatchers/dispatcher.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 578,
+						"buffer_size": 2209,
 						"regions":
 						{
 						},
@@ -374,6 +557,44 @@
 						{
 							"encoding_helper_encoding": "UTF-8",
 							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/css/basics.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -381,219 +602,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1049,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								846,
-								367
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "node_modules/sealious/lib/dispatchers/dispatcher.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2166,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								605,
-								605
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 96.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7544,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										293,
-										302
-									],
-									[
-										647,
-										656
-									],
-									[
-										1019,
-										1028
-									],
-									[
-										1227,
-										1236
-									],
-									[
-										1595,
-										1604
-									],
-									[
-										1912,
-										1921
-									],
-									[
-										2157,
-										2166
-									],
-									[
-										2419,
-										2428
-									],
-									[
-										2700,
-										2709
-									],
-									[
-										2940,
-										2949
-									],
-									[
-										3136,
-										3145
-									],
-									[
-										3318,
-										3327
-									],
-									[
-										3535,
-										3544
-									],
-									[
-										4099,
-										4108
-									],
-									[
-										4389,
-										4398
-									],
-									[
-										4761,
-										4770
-									],
-									[
-										4969,
-										4978
-									],
-									[
-										5315,
-										5324
-									],
-									[
-										5620,
-										5629
-									],
-									[
-										5666,
-										5675
-									],
-									[
-										5914,
-										5923
-									],
-									[
-										6178,
-										6187
-									],
-									[
-										6461,
-										6470
-									],
-									[
-										6701,
-										6710
-									],
-									[
-										6917,
-										6926
-									],
-									[
-										7099,
-										7108
-									],
-									[
-										7337,
-										7346
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"encoding_helper_encoding": "",
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2064.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -634,6 +643,10 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "SOWa.sublime-project",
 	"replace":
@@ -648,16 +661,24 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"main.js"
+			],
+			[
+				"pesel",
+				"node_modules/identification-numbers/lib/identification-numbers/pesel.js"
+			],
+			[
+				"main.js",
+				"main.js"
+			],
+			[
 				"dispa",
 				"node_modules/sealious/lib/dispatchers/dispatcher.js"
 			],
 			[
 				"formcss",
 				"public/css/sealious-form.css"
-			],
-			[
-				"main",
-				"main.js"
 			],
 			[
 				"field-type",
@@ -676,10 +697,6 @@
 				"public/index.html"
 			],
 			[
-				"main.js",
-				"main.js"
-			],
-			[
 				"fronte",
 				"public/js/frontend.js"
 			],
@@ -693,19 +710,19 @@
 	"select_project":
 	{
 		"height": 435.0,
-		"last_filter": "sea",
+		"last_filter": "soko",
 		"selected_items":
 		[
 			[
-				"sea",
-				"~/Projekty/Sealious-dev/Sealious.sublime-project"
+				"soko",
+				"~/Projekty/Sokoban/Sokoban.sublime-project"
 			],
 			[
-				"sowa",
-				"~/Projekty/SOWa/SOWa.sublime-project"
+				"sokoba",
+				"~/Projekty/Sokoban/Sokoban.sublime-project"
 			],
 			[
-				"sealiou",
+				"sealious",
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[
@@ -713,15 +730,19 @@
 				"~/Studia/2015 L/KEA/KEA.sublime-project"
 			],
 			[
+				"sealiou",
+				"~/Projekty/Sealious-dev/Sealious.sublime-project"
+			],
+			[
 				"saelious",
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[
-				"sealious",
+				"selaiou",
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[
-				"selaiou",
+				"sea",
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[

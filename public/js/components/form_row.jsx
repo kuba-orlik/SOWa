@@ -20,8 +20,11 @@ var FormRow = React.createClass({
 		}
 	},
 	render: function(){
+		var formStatus = this.props.formStatus;
+		var field_name = this.props.field_description.name;
+		var invalid_fields = formStatus.invalid_fields || {};
 		return (
-			<div className={"form-row " + (this.state.is_active?"active":"inactive")}>
+			<div className={"form-row" + (this.state.is_active?" active":" inactive") + (invalid_fields[field_name]? " error" : "")}>
 				<FormLabel field_description={this.props.field_description}/>
 				<FormInput field_description={this.props.field_description} onFocus={this.setActive} onBlur={this.setInactive}/>
 			</div>

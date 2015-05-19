@@ -20,7 +20,7 @@ form_entry.add_fields([
 	{name: "last-name", type: "text", required: true, human_readable_name: "Nazwisko"},
 	{name: "PESEL", type: "pesel", required: true,},
 	{name: "kolor_stoiska", type: "color", required: true, human_readable_name: "Kolor stoiska"},
-	{name: "kolor_stoiska2", type: "color", required: true, human_readable_name: "Kolor stoiska"},
+	//{name: "kolor_stoiska2", type: "color", required: true, human_readable_name: "Kolor stoiska"},
 	{name: "Rok", type: "int", required: true},
 ])
 
