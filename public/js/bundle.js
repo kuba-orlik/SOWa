@@ -31964,10 +31964,12 @@ var FormRow = require("./form_row.jsx");
 var FormBody = React.createClass({displayName: "FormBody",
 	render: function(){
 		var field_descriptions = this.props.fields;
-		console.log(this.props);
-		var rows = field_descriptions.map(function(field_description){
-			return React.createElement(FormRow, {status: this.props.status, field_description: field_description, prefix: this.props.prefix})
-		}.bind(this))
+		var rows = [];
+		for(var i in field_descriptions){
+			rows.push(
+				React.createElement(FormRow, {status: this.props.status, field_description: field_descriptions[i], prefix: this.props.prefix})
+			)			
+		}
 		return (
 			React.createElement("div", null, 
 				rows
