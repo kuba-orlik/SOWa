@@ -1,0 +1,16 @@
+.resource-list table{
+	border-collapse: collapse;
+}
+
+.resource-list tr:nth-child(2n+1){
+	background-color:hsl(0, 0%, 94%);
+}
+
+.resource-list td,
+.resource-list th{
+	padding: 0 1rem;
+}
+
+.resource-list td a{
+	text-decoration:none;
+}
