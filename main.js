@@ -22,11 +22,19 @@ form_entry.add_fields([
 	{name: "kolor_stoiska", type: "color", required: true, human_readable_name: "Kolor stoiska"},
 	{name: "kolor_stoiska2", type: "color", required: true, human_readable_name: "Kolor stoiska"},
 	{name: "Rok", type: "int", required: true},
-])
+]);
+
+
+var state_tree_test = new Sealious.ChipTypes.ResourceType("state_tree_test");
+
+state_tree_test.add_fields([
+	{name: "state", type: "state_tree"}
+]);
 
 var rest = Sealious.ChipManager.get_chip("channel", "rest");
 
 rest.add_path("/api/v1/form_entry", "form_entry");
+rest.add_path("/api/v1/state_tree", "state_tree_test");
 
 www_server.static_route(path.resolve( __dirname, "./public"), "");
 
