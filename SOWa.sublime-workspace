@@ -16,66 +16,34 @@
 	"buffers":
 	[
 		{
+			"file": "public/js/frontend.js",
+			"settings":
+			{
+				"buffer_size": 701,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/components/all.jsx",
+			"settings":
+			{
+				"buffer_size": 396,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/components/zgloszenie_widok.jsx",
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "public/js/components/form.jsx",
 			"settings":
 			{
-				"buffer_size": 2122,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/js/components/form_row.jsx",
-			"settings":
-			{
-				"buffer_size": 862,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/js/components/form_footer.jsx",
-			"settings":
-			{
-				"buffer_size": 734,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/css/sealious-form.css",
-			"settings":
-			{
-				"buffer_size": 1070,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "main.js",
-			"settings":
-			{
-				"buffer_size": 1051,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/schema/field_type.pesel.js",
-			"settings":
-			{
-				"buffer_size": 482,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "node_modules/sealious/lib/dispatchers/dispatcher.js",
-			"settings":
-			{
-				"buffer_size": 2209,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/css/basics.css",
-			"settings":
-			{
-				"buffer_size": 613,
+				"buffer_size": 2197,
 				"line_ending": "Unix"
 			}
 		}
@@ -87,10 +55,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 124.0,
-		"last_filter": "preview",
+		"height": 219.0,
+		"last_filter": "js",
 		"selected_items":
 		[
+			[
+				"js",
+				"Set Syntax: JSX"
+			],
 			[
 				"preview",
 				"Markdown Preview: Preview in Browser"
@@ -144,7 +116,7 @@
 				"Set Syntax: CSS"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -168,31 +140,48 @@
 		"/home/kuba/Projekty/SOWa",
 		"/home/kuba/Projekty/SOWa/lib",
 		"/home/kuba/Projekty/SOWa/lib/schema",
+		"/home/kuba/Projekty/SOWa/public",
 		"/home/kuba/Projekty/SOWa/public/css",
 		"/home/kuba/Projekty/SOWa/public/js",
 		"/home/kuba/Projekty/SOWa/public/js/components"
 	],
 	"file_history":
 	[
+		"/home/kuba/Projekty/SOWa/public/js/components/all.jsx",
+		"/home/kuba/Projekty/SOWa/public/css/sealious-resource-list.css",
+		"/home/kuba/Projekty/SOWa/public/js/components/zgloszenie_lista.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/resource_list_row.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/resource_list.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/zgloszenie_nowe.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/form.jsx",
+		"/home/kuba/Projekty/SOWa/public/css/all.css",
 		"/home/kuba/Projekty/SOWa/public/js/frontend.js",
+		"/home/kuba/Projekty/SOWa/public/index.html",
+		"/home/kuba/Projekty/SOWa/public/js/components/resource_list_header.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/zgloszenie_success.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/home.jsx",
+		"/home/kuba/Projekty/SOWa/public/css/basics.css",
+		"/home/kuba/Projekty/SOWa/public/js/store.js",
+		"/home/kuba/Projekty/SOWa/public/js/components/app.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/zgloszenie_stanowiska.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/form_input.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/form_label.jsx",
+		"/home/kuba/Projekty/SOWa/public/js/components/form_row.jsx",
+		"/home/kuba/Projekty/SOWa/main.js",
+		"/etc/hosts",
+		"/home/kuba/Projekty/SOWa/lib/schema/field_type.pesel.js",
+		"/home/kuba/Projekty/SOWa/node_modules/sealious/lib/dispatchers/dispatcher.js",
+		"/home/kuba/Projekty/SOWa/public/css/sealious-form.css",
+		"/home/kuba/Projekty/SOWa/public/js/components/form_footer.jsx",
 		"/home/kuba/Projekty/SOWa/public/js/bundle.js",
 		"/home/kuba/Projekty/SOWa/node_modules/identification-numbers/lib/identification-numbers/pesel.js",
 		"/home/kuba/Downloads/nohup.out",
-		"/home/kuba/Projekty/SOWa/public/css/sealious-form.css",
-		"/home/kuba/Projekty/SOWa/main.js",
 		"/home/kuba/Projekty/WG/Word Generator 2 - wymagania.md",
 		"/home/kuba/temp/pyDDP/temp_server.py",
 		"/home/kuba/temp/pyDDP/temp_client.py",
 		"/home/kuba/Projekty/personal-log.md",
-		"/home/kuba/Projekty/SOWa/public/js/components/form_input.jsx",
 		"/home/kuba/Projekty/SOWa/node_modules/sealious/lib/chip-types/field-type.js",
-		"/home/kuba/Projekty/SOWa/lib/schema/field_type.pesel.js",
-		"/home/kuba/Projekty/SOWa/public/css/all.css",
-		"/home/kuba/Projekty/SOWa/public/css/basics.css",
 		"/home/kuba/Projekty/SOWa/public/css/reset.css",
-		"/home/kuba/Projekty/SOWa/public/js/components/form_row.jsx",
-		"/home/kuba/Projekty/SOWa/public/js/components/form.jsx",
-		"/home/kuba/Projekty/SOWa/public/index.html",
 		"/home/kuba/Projekty/SOWa/.gitignore",
 		"/home/kuba/Scripts/wiimote.sh",
 		"/home/kuba/.bashrc",
@@ -200,8 +189,6 @@
 		"/home/kuba/mymodmapfile.txt",
 		"/media/kuba/Kuba/Backup/2015 04 23 Ubuntu/etc/cwiid/wminput/buttons",
 		"/home/kuba/Projekty/SOWa/lib/schema/schema.js",
-		"/home/kuba/Projekty/SOWa/public/js/components/all.jsx",
-		"/home/kuba/Projekty/SOWa/public/js/components/form_label.jsx",
 		"/home/kuba/Projekty/SOWa/public/login.html",
 		"/home/kuba/Projekty/SOWa/public/register.html",
 		"/home/kuba/Projekty/Sealious-dev/sealious-base-chips/package.json",
@@ -290,6 +277,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ZgloszenieSuccess",
+			"ResourceList",
+			"$.",
+			"Lista",
+			"Form",
+			"form",
+			"Form",
+			"home",
+			"Home",
+			"Zgloszenie",
+			" =",
+			"App",
+			"Route",
+			" * @class ReactMountReady",
 			"\"arguments\"",
 			"zgłoszenie",
 			"POST /login",
@@ -331,24 +332,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/js/components/form.jsx",
+					"file": "public/js/frontend.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2122,
+						"buffer_size": 701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1590,
-								1590
+								584,
+								584
 							]
 						],
 						"settings":
@@ -359,7 +360,41 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/js/components/all.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -369,54 +404,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "public/js/components/form_row.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 862,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								617,
-								617
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "public/js/components/form_footer.jsx",
+					"file": "public/js/components/zgloszenie_widok.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 734,
+						"buffer_size": 368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								389,
-								389
+								312,
+								312
 							]
 						],
 						"settings":
@@ -426,8 +427,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -438,119 +438,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "public/css/sealious-form.css",
+					"file": "public/js/components/form.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1070,
+						"buffer_size": 2197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								245,
-								245
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1051,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								706,
-								706
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "lib/schema/field_type.pesel.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 482,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								393,
-								393
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "node_modules/sealious/lib/dispatchers/dispatcher.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2209,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								1573,
+								1573
 							]
 						],
 						"settings":
@@ -561,48 +461,13 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 96.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "public/css/basics.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 613,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								567,
-								567
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -661,6 +526,42 @@
 		"selected_items":
 		[
 			[
+				"form",
+				"public/js/components/form.jsx"
+			],
+			[
+				"all",
+				"public/js/components/all.jsx"
+			],
+			[
+				"frontend",
+				"public/js/frontend.js"
+			],
+			[
+				"form.jsx",
+				"public/js/components/form.jsx"
+			],
+			[
+				"basi",
+				"public/css/basics.css"
+			],
+			[
+				"resli",
+				"public/js/components/resource_list.jsx"
+			],
+			[
+				"formrow",
+				"public/js/components/form_row.jsx"
+			],
+			[
+				"form.js",
+				"public/js/components/form.jsx"
+			],
+			[
+				"app",
+				"public/js/components/app.jsx"
+			],
+			[
 				"main",
 				"main.js"
 			],
@@ -710,19 +611,11 @@
 	"select_project":
 	{
 		"height": 435.0,
-		"last_filter": "soko",
+		"last_filter": "se",
 		"selected_items":
 		[
 			[
-				"soko",
-				"~/Projekty/Sokoban/Sokoban.sublime-project"
-			],
-			[
-				"sokoba",
-				"~/Projekty/Sokoban/Sokoban.sublime-project"
-			],
-			[
-				"sealious",
+				"se",
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[
@@ -734,11 +627,7 @@
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[
-				"saelious",
-				"~/Projekty/Sealious-dev/Sealious.sublime-project"
-			],
-			[
-				"selaiou",
+				"sealou",
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[
@@ -746,11 +635,35 @@
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[
+				"seal",
+				"~/Projekty/Sealious-dev/Sealious.sublime-project"
+			],
+			[
 				"seali",
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[
-				"seal",
+				"sealious",
+				"~/Projekty/Sealious-dev/Sealious.sublime-project"
+			],
+			[
+				"sowa",
+				"~/Projekty/SOWa/SOWa.sublime-project"
+			],
+			[
+				"soko",
+				"~/Projekty/Sokoban/Sokoban.sublime-project"
+			],
+			[
+				"sokoba",
+				"~/Projekty/Sokoban/Sokoban.sublime-project"
+			],
+			[
+				"saelious",
+				"~/Projekty/Sealious-dev/Sealious.sublime-project"
+			],
+			[
+				"selaiou",
 				"~/Projekty/Sealious-dev/Sealious.sublime-project"
 			],
 			[
@@ -778,12 +691,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 342.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 1070.0
 	},
 	"selected_group": 0,
 	"settings":

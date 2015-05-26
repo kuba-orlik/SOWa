@@ -8,8 +8,12 @@ var DefaultRoute = Router.DefaultRoute;
 var routes = (
   <Route handler={Sowa.App} path="/">
   	<DefaultRoute name="home" handler={Sowa.Home}/>
-  	<Route name="zgloszenie" handler={Sowa.Zgloszenie}/>
-  	//dodać new, view
+  	<Route path="/zgloszenia">
+  		<DefaultRoute handler={Sowa.ListaZgłoszeń}/>
+  		<Route path="/zgloszenia/nowe" handler={Sowa.NoweZgłoszenie}/>
+  		<Route path="/zgloszenia/nowe/sukces!" handler={Sowa.ZgłoszenieSuccess}/>
+  		<Route path="/zgloszenia/:zgloszenie_id" handler={Sowa.ZgłoszenieWidok}/>
+  	</Route>
   </Route>
 );
 

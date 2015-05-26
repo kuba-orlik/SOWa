@@ -6,7 +6,8 @@ var ZgloszenieSuccess = React.createClass({
 	render: function(){
 		return (
 			<div>
-				ZgloszenieSuccess!
+				<h2>Gratulacje!</h2>
+				Twoje zgłoszenie zostało wysłane poprawnie.
 			</div>
 		)
 	}
