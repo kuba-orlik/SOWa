@@ -21,6 +21,13 @@
 	border-top-width:0;
 }
 
+
+.sealious-form .form-row.wide{
+	width:100%;
+	border-width:1px;
+}
+
+
 .form-row *{
 	margin-top:0;
 }
@@ -65,4 +72,3 @@
 .sealious-form input[type="submit"]:hover{
 	background-color: hsl(30, 1%, 60%);
 }
-
