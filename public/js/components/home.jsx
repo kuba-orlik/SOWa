@@ -7,7 +7,7 @@ var Home = React.createClass({
 		return (
 			<div>
 				<h2>home</h2>
-				<a href="#/zgloszenia/nowe">Złoż wniosek o stanowisko</a><br/>
+				<a href="#/zgloszenia/nowe">Złóż wniosek o stanowisko</a><br/>
 				<a href="#/zgloszenia">Lista zgłoszeń</a><br/>
 			</div>
 		)
