@@ -1,2 +1,5 @@
 node_modules
+SOWa.sublime-workspace
 *.sublime-workspace
+*.sublime-project
+public/js/bundle.js

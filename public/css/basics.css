@@ -3,7 +3,7 @@
 }
 
 html{
-	background-color: hsl(54, 10%, 84%);
+	background-color: hsl(220, 7%, 91%);
 	padding:1rem;
 	font-size:1.1rem;
 }
@@ -24,7 +24,6 @@ body:before{
 	content:" ";
 	width:100%;
 	height:100%;
-	background-image:url("/img/sowa.svg");
 	opacity:0.3;
 	position:absolute;
 	top:0;
@@ -39,4 +38,23 @@ body:before{
 body > *{
 	z-index: 2;
 	position:relative;
+}
+
+a{
+	color: hsl(190, 31%, 44%);
+}
+
+a:visited{
+	color: hsl(190, 31%, 60%);
+}
+
+button, input[type="submit"]{
+	background-color: hsl(190, 31%, 44%)!important;
+}
+
+button:hover, 
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+	background-color: hsl(190, 31%, 50%)!important;
 }

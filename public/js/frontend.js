@@ -1,7 +1,26 @@
 var React = require("react");
+var Router = require("react-router");
 var Sowa = require("./components/all.jsx");  
 
-React.render(
-  <Sowa.Form title="Nowe zgłoszenie o stoisko" resource_url="/api/v1/form_entry" />,
-  document.getElementById('content')
+var Route = Router.Route;
+var DefaultRoute = Router.DefaultRoute;
+
+var routes = (
+  <Route handler={Sowa.App} path="/">
+  	<DefaultRoute name="home" handler={Sowa.Home}/>
+    <Route path="/rv" handler={Sowa.ResourceView_test}/>
+  	<Route path="/zgloszenia">
+  		<DefaultRoute handler={Sowa.ListaZgłoszeń}/>
+  		<Route path="/zgloszenia/nowe" handler={Sowa.NoweZgłoszenie}/>
+  		<Route path="/zgloszenia/nowe/sukces!" handler={Sowa.ZgłoszenieSuccess}/>
+  		<Route path="/zgloszenia/:zgloszenie_id" handler={Sowa.ZgłoszenieWidok}/>
+  	</Route>
+  </Route>
 );
+
+Router.run(routes, function (Handler) {
+  React.render(<Handler/>, document.body);
+});
+
+
+var SchemaCache 
