@@ -75,7 +75,7 @@ var form_entry = new Sealious.ChipTypes.ResourceType("form_entry", {
 
 var rest = Sealious.ChipManager.get_chip("channel", "rest");
 
-rest.add_path("/api/v1/form_entry", "form_entry");
+rest.set_url_base("/api/v1");
 
 www_server.static_route(path.resolve( __dirname, "./public"), "");
 

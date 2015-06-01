@@ -23,15 +23,16 @@ var FormInputReference = React.createClass({
 			return (<option value={type_name}>{type_name}</option>);
 		})
 
+		console.log("FormInputReference received status:", this.props.status);
+
 		var form_body;
 		if(this.state.chosen_type_name==""){
 			form_body = <div></div>;
 		}else{
-			var substatus = {};
-			if(this.props.status.invalid_fields!==null){
-				substatus.invalid_fields = this.props.status.invalid_fields[field_name];				
-			}
-			form_body = <FormBody fields={reference_params.allowed_types[this.state.chosen_type_name]}  status={substatus} prefix={this.props.prefix + field_name + "[data]"}/>;
+			form_body = <FormBody 
+				fields={reference_params.allowed_types[this.state.chosen_type_name]}  
+				status={this.props.status.data && this.props.status.data.invalid_fields && this.props.status.data.invalid_fields[field_name]} 
+				prefix={this.props.prefix + field_name + "[data]"} />;
 		}
 
 		var select = null;

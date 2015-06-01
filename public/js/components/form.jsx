@@ -37,11 +37,7 @@ var Form = React.createClass({
 	},
 	handleServerErrorResponse: function(response){
 		this.setState({
-			status:{
-				is_erorr: response.is_error,
-				status_name: response.type,
-				invalid_fields: response.data.invalid_fields || {} ,
-			}
+			status:response
 		})
 	},
 	submit: function(e){
@@ -60,6 +56,7 @@ var Form = React.createClass({
 					is_error: false,
 					status_name: "success",
 					invalid_fields: null,
+					data: {},
 				}
 			})
 			if(this.props.onSuccess){

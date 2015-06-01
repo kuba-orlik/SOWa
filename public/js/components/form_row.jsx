@@ -22,9 +22,9 @@ var FormRow = React.createClass({
 	},
 	render: function(){
 		var field_description = this.props.field_description;
-		var status = this.props.status;
+		var status = this.props.status || {};
 		var field_name = this.props.field_description.name;
-		var invalid_fields = status.invalid_fields || {};
+		var invalid_fields = status.data && status.data.invalid_fields || {};
 
 		var input;
 		var wide;
