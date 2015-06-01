@@ -28,7 +28,7 @@ form_entry.add_fields([
 var state_tree_test = new Sealious.ChipTypes.ResourceType("state_tree_test");
 
 state_tree_test.add_fields([
-	{name: "state", type: "state_tree"}
+	{name: "state", type: "state_tree", params: { available_states: [1,2,3,4], rules_of_transitions: [ [1, 5], [1, 3], [1, 4], [2, 3], [3, 4] ], initial_state: 1}}
 ]);
 
 var rest = Sealious.ChipManager.get_chip("channel", "rest");
