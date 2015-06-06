@@ -52,6 +52,11 @@ button, input[type="submit"]{
 	background-color: hsl(190, 31%, 44%)!important;
 }
 
+button,
+button *{
+	color:white;
+}
+
 button:hover, 
 button:focus,
 input[type="submit"]:hover,

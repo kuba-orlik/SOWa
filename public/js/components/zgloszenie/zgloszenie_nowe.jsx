@@ -1,6 +1,6 @@
 var React = require("react");
 var RouteHandler = require("react-router").RouteHandler;
-var Form = require("./form.jsx");
+var Form = require("../form/form.jsx");
 
 var Zgloszenie = React.createClass({
 	go_to_success_page: function(data){

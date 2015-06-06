@@ -1,6 +1,6 @@
 var React = require("react");
 var RouteHandler = require("react-router").RouteHandler;
-var ResourceList = require("./resource_list.jsx");
+var ResourceList = require("../resource_view/resource_list.jsx");
 
 var ZgloszenieLista = React.createClass({
 	render: function(){
@@ -14,14 +14,14 @@ var ZgloszenieLista = React.createClass({
 							{
 								display_name: "Podmiot",
 								getter: function(row){
-									console.log(row.body);
 									return row.body.podmiot.body.nazwa || row.body.podmiot.body.imie + " " + row.body.podmiot.body.nazwisko;
 								}
 							},
 							{
 								display_name: "Stoisko",
 								attribute: "body.stoisko.body.nazwa",
-							}
+							},
+							"stan"
 						]
 					}
 					no_entries_message="Lista zgłoszeń jest pusta."

@@ -31841,19 +31841,19 @@ module.exports = require('./lib/React');
 
 },{"./lib/React":68}],196:[function(require,module,exports){
 module.exports = {
-	"Form": 			require("./form.jsx"),
-	"ResourceList": 	require("./resource_list.jsx"),
+	"Form": 			require("./form/form.jsx"),
+	"ResourceList": 	require("./resource_view/resource_list.jsx"),
 	"App": 				require("./app.jsx"),
-	"NoweZgłoszenie": 	require("./zgloszenie_nowe.jsx"),
-	"ListaZgłoszeń": 	require("./zgloszenie_lista.jsx"),
-	"ZgłoszenieSuccess":require("./zgloszenie_success.jsx"),
-	"ZgłoszenieWidok": 	require("./zgloszenie_widok.jsx"),
+	"NoweZgłoszenie": 	require("./zgloszenie/zgloszenie_nowe.jsx"),
+	"ListaZgłoszeń": 	require("./zgloszenie/zgloszenie_lista.jsx"),
+	"ZgłoszenieSuccess":require("./zgloszenie/zgloszenie_success.jsx"),
+	"ZgłoszenieWidok": 	require("./zgloszenie/zgloszenie_widok.jsx"),
 	"Home": 			require("./home.jsx"),
-	"ResourceView": 	require("./resource_view.jsx"),
-	"ResourceView_test": 	require("./resource_view_test.jsx"),
+	"ResourceView": 	require("./resource_view/resource_view.jsx"),
+	"ResourceView_test": 	require("./resource_view/resource_view_test.jsx"),
 }
 
-},{"./app.jsx":197,"./form.jsx":198,"./home.jsx":205,"./resource_list.jsx":206,"./resource_view.jsx":209,"./resource_view_test.jsx":211,"./zgloszenie_lista.jsx":212,"./zgloszenie_nowe.jsx":213,"./zgloszenie_success.jsx":214,"./zgloszenie_widok.jsx":215}],197:[function(require,module,exports){
+},{"./app.jsx":197,"./form/form.jsx":198,"./home.jsx":205,"./resource_view/resource_list.jsx":206,"./resource_view/resource_view.jsx":209,"./resource_view/resource_view_test.jsx":211,"./zgloszenie/zgloszenie_lista.jsx":212,"./zgloszenie/zgloszenie_nowe.jsx":213,"./zgloszenie/zgloszenie_success.jsx":214,"./zgloszenie/zgloszenie_widok.jsx":215}],197:[function(require,module,exports){
 var React = require("react");
 var RouteHandler = require("react-router").RouteHandler;
 
@@ -32150,14 +32150,14 @@ module.exports = FormRow;
 },{"./form_input.jsx":201,"./form_input_reference.jsx":202,"./form_label.jsx":203,"react":195}],205:[function(require,module,exports){
 var React = require("react");
 var RouteHandler = require("react-router").RouteHandler;
-var Form = require("./form.jsx");
+var Form = require("./form/form.jsx");
 
 var Home = React.createClass({displayName: "Home",
 	render: function(){
 		return (
 			React.createElement("div", null, 
 				React.createElement("h2", null, "home"), 
-				React.createElement("a", {href: "#/zgloszenia/nowe"}, "Złoż wniosek o stanowisko"), React.createElement("br", null), 
+				React.createElement("a", {href: "#/zgloszenia/nowe"}, "Złóż wniosek o stanowisko"), React.createElement("br", null), 
 				React.createElement("a", {href: "#/zgloszenia"}, "Lista zgłoszeń"), React.createElement("br", null)
 			)
 		)
@@ -32166,7 +32166,7 @@ var Home = React.createClass({displayName: "Home",
 
 module.exports = Home;
 
-},{"./form.jsx":198,"react":195,"react-router":26}],206:[function(require,module,exports){
+},{"./form/form.jsx":198,"react":195,"react-router":26}],206:[function(require,module,exports){
 var React = require("react");
 var $ = require("jquery");
 
@@ -32253,7 +32253,7 @@ var ResourceListRow = React.createClass({displayName: "ResourceListRow",
 			if(typeof column == "string"){
 				return (
 					React.createElement("td", null, 
-						React.createElement("a", {href: this.props.single_view_url + resource.id}, resource[column])
+						React.createElement("a", {href: this.props.single_view_url + resource.id}, resource.body[column])
 					)
 				)
 			}else if(typeof column=="object"){
@@ -32281,7 +32281,7 @@ var ResourceListRow = React.createClass({displayName: "ResourceListRow",
 							)
 						)						
 					}catch(e){
-						console.error("Attribute ", column.attribute, "not defined");
+						//console.error("Attribute ", column.attribute, "not defined");
 					}
 				}
 			}
@@ -32299,17 +32299,32 @@ module.exports = ResourceListRow;
 
 },{"react":195}],209:[function(require,module,exports){
 var React = require("react");
+var $ = require("jquery");
+
 
 var ResourceViewTemplate = require("./resource_view_template.jsx");
 
 var ResourceView = React.createClass({displayName: "ResourceView",
+	
+	getInitialState: function(){
+		return {
+			resource: {
+				body:{}
+			}
+		}
+	},
+
+	componentDidMount: function(){
+		$.get(this.props.resource_url)
+		.success(function(response){
+			this.setState({resource: response})
+		}.bind(this))
+	},
+
 	render: function(){
-		console.log("render resourceview", this.props);
 		return (
 			React.createElement("div", null, 
-			React.createElement("h2", null, "Jestę ResourceView"), 
-			React.createElement("h3", null, "Templatka: "), 
-				React.createElement(this.props.template, {kupa: "dupa", data: this.props.data})
+				React.createElement(this.props.template, {resource: this.state.resource, resource_url: this.props.resource_url})
 			)
 		)
 	}
@@ -32317,7 +32332,7 @@ var ResourceView = React.createClass({displayName: "ResourceView",
 
 module.exports = ResourceView;
 
-},{"./resource_view_template.jsx":210,"react":195}],210:[function(require,module,exports){
+},{"./resource_view_template.jsx":210,"jquery":1,"react":195}],210:[function(require,module,exports){
 var React = require("react");
 
 
@@ -32366,7 +32381,7 @@ module.exports = ResourceViewTest;
 },{"./resource_view.jsx":209,"./resource_view_template.jsx":210,"react":195}],212:[function(require,module,exports){
 var React = require("react");
 var RouteHandler = require("react-router").RouteHandler;
-var ResourceList = require("./resource_list.jsx");
+var ResourceList = require("../resource_view/resource_list.jsx");
 
 var ZgloszenieLista = React.createClass({displayName: "ZgloszenieLista",
 	render: function(){
@@ -32380,14 +32395,14 @@ var ZgloszenieLista = React.createClass({displayName: "ZgloszenieLista",
 							{
 								display_name: "Podmiot",
 								getter: function(row){
-									console.log(row.body);
 									return row.body.podmiot.body.nazwa || row.body.podmiot.body.imie + " " + row.body.podmiot.body.nazwisko;
 								}
 							},
 							{
 								display_name: "Stoisko",
 								attribute: "body.stoisko.body.nazwa",
-							}
+							},
+							"stan"
 						], 
 					
 					no_entries_message: "Lista zgłoszeń jest pusta.", 
@@ -32400,10 +32415,10 @@ var ZgloszenieLista = React.createClass({displayName: "ZgloszenieLista",
 
 module.exports = ZgloszenieLista;
 
-},{"./resource_list.jsx":206,"react":195,"react-router":26}],213:[function(require,module,exports){
+},{"../resource_view/resource_list.jsx":206,"react":195,"react-router":26}],213:[function(require,module,exports){
 var React = require("react");
 var RouteHandler = require("react-router").RouteHandler;
-var Form = require("./form.jsx");
+var Form = require("../form/form.jsx");
 
 var Zgloszenie = React.createClass({displayName: "Zgloszenie",
 	go_to_success_page: function(data){
@@ -32424,10 +32439,10 @@ var Zgloszenie = React.createClass({displayName: "Zgloszenie",
 
 module.exports = Zgloszenie;
 
-},{"./form.jsx":198,"react":195,"react-router":26}],214:[function(require,module,exports){
+},{"../form/form.jsx":198,"react":195,"react-router":26}],214:[function(require,module,exports){
 var React = require("react");
 var RouteHandler = require("react-router").RouteHandler;
-var Form = require("./form.jsx");
+var Form = require("../form/form.jsx");
 
 var ZgloszenieSuccess = React.createClass({displayName: "ZgloszenieSuccess",
 	render: function(){
@@ -32442,17 +32457,94 @@ var ZgloszenieSuccess = React.createClass({displayName: "ZgloszenieSuccess",
 
 module.exports = ZgloszenieSuccess;
 
-},{"./form.jsx":198,"react":195,"react-router":26}],215:[function(require,module,exports){
+},{"../form/form.jsx":198,"react":195,"react-router":26}],215:[function(require,module,exports){
 var React = require("react");
 var RouteHandler = require("react-router").RouteHandler;
-var Form = require("./form.jsx");
+var $ = require("jquery");
 
-var ZgłoszenieWidok = React.createClass({displayName: "ZgłoszenieWidok",
+var ResourceView = require("../resource_view/resource_view.jsx");
+
+
+var SimplePatch = React.createClass({displayName: "SimplePatch",
+	handleClick: function(){
+		$.ajax({
+            method: "PATCH",
+            url: this.props.url,
+            data: this.props.values,
+        }).done(function(){
+        	this.props.success_callback && this.props.success_callback();
+        }.bind(this));
+	},
 	render: function(){
 		return (
+			React.createElement("div", {className: "sealious-form"}, 
+				React.createElement("button", {onClick: this.handleClick}, " ", this.props.text)
+			)
+		)
+	}
+})
+
+
+var ZgłoszenieTemplatka = React.createClass({displayName: "ZgłoszenieTemplatka",
+	render: function(){
+		var zgloszenie = this.props.resource;
+
+		var nazwa_stoiska = zgloszenie.body.stoisko && zgloszenie.body.stoisko.body.nazwa;
+		var nazwa_podmiotu;
+		if(zgloszenie.body.podmiot){
+			if(zgloszenie.body.podmiot.type=="osoba_fizyczna"){
+				nazwa_podmiotu = zgloszenie.body.podmiot.body.imie + " " + zgloszenie.body.podmiot.body.nazwisko;
+			}
+		}
+
+		var opis_stoiska = [];
+		if(zgloszenie.body.stoisko){
+			var stoisko = zgloszenie.body.stoisko.body;
+			for(var i in stoisko){
+				opis_stoiska.push(React.createElement("tr", null, React.createElement("td", null, i), React.createElement("td", null, stoisko[i])));
+			}
+		}
+
+		var nastepne_stany = (zgloszenie.body && zgloszenie.body.next_possible_states && zgloszenie.body.next_possible_states[zgloszenie.body.stan]) || [];
+		var nastepne_stany_buttons = [];
+		for(var i in nastepne_stany){
+			var stan = nastepne_stany[i];
+			var button = (
+				React.createElement(SimplePatch, {values: {stan: stan}, url: this.props.resource_url, text: stan, success_callback: function(){document.location.reload()}})
+			);
+			nastepne_stany_buttons.push(button);
+		}
+		console.log(nastepne_stany_buttons);
+
+		return (
 			React.createElement("div", null, 
-				React.createElement("h2", null, "Widok zgłoszenia"), 
-				"//do zaimplementowania jak już będzie ładna struktura po stronie backendu"
+				React.createElement("h2", null, "Widok zgłoszenia o stoisko ", nazwa_stoiska), 
+				React.createElement("h3", null, "Podmiot: ", nazwa_podmiotu), 
+				React.createElement("h3", null, "Status: ", zgloszenie.body.stan), 
+				React.createElement("h3", null, "Zmień status: "), 
+				nastepne_stany_buttons, 
+				React.createElement("h3", null, "Opis Stoiska: "), 
+				React.createElement("table", null, 
+					React.createElement("tbody", null, 
+						opis_stoiska
+					)
+				)
+			)
+		)
+	}
+})
+
+
+var ZgłoszenieWidok = React.createClass({displayName: "ZgłoszenieWidok",
+	contextTypes: {
+		router: React.PropTypes.func
+	},
+
+	render: function(){
+		var zgłoszenie_id = this.context.router.getCurrentParams().zgloszenie_id;
+		return (
+			React.createElement("div", null, 
+				React.createElement(ResourceView, {template: ZgłoszenieTemplatka, resource_url: "/api/v1/form_entry/"+zgłoszenie_id})
 			)
 		)
 	}
@@ -32460,7 +32552,7 @@ var ZgłoszenieWidok = React.createClass({displayName: "ZgłoszenieWidok",
 
 module.exports = ZgłoszenieWidok;
 
-},{"./form.jsx":198,"react":195,"react-router":26}],216:[function(require,module,exports){
+},{"../resource_view/resource_view.jsx":209,"jquery":1,"react":195,"react-router":26}],216:[function(require,module,exports){
 var React = require("react");
 var Router = require("react-router");
 var Sowa = require("./components/all.jsx");  

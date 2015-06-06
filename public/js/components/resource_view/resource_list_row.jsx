@@ -7,7 +7,7 @@ var ResourceListRow = React.createClass({
 			if(typeof column == "string"){
 				return (
 					<td>
-						<a href={this.props.single_view_url + resource.id}>{resource[column]}</a>
+						<a href={this.props.single_view_url + resource.id}>{resource.body[column]}</a>
 					</td>
 				)
 			}else if(typeof column=="object"){
@@ -35,7 +35,7 @@ var ResourceListRow = React.createClass({
 							</td>
 						)						
 					}catch(e){
-						console.error("Attribute ", column.attribute, "not defined");
+						//console.error("Attribute ", column.attribute, "not defined");
 					}
 				}
 			}
